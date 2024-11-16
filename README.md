@@ -3,7 +3,7 @@
 Welcome to the Awesome Scripts repository! This is a collection of scripts that I am creating as I learn Go (Golang). Each script serves as a practice exercise to enhance my skills in Go programming.
 
 - [Scripts](#scripts)
-- [How to Download and Build the Repository](#how-to-download-and-build-the-repository)
+- [How to Download and Build Scripts](#how-to-download-and-build-scripts)
 - [Contributing](#contributing)
 
 ## Scripts
@@ -26,7 +26,7 @@ Here are some of the scripts available in this repository:
 
 - **Description**: This script extracts IP addresses from a specified file for use with Mikrotik devices.
 
-## How to Download and Build
+## How to Download and Build Scripts
 
 To download and build the entire repository, follow these steps:
 
