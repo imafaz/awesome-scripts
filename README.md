@@ -134,6 +134,20 @@ bash <(curl -s https://raw.githubusercontent.com/imafaz/awesome-scripts/main/set
 
 ---
 
+### 8. Convert Linux to MikroTik
+**Description:** This Bash script converts a Linux machine into a MikroTik CHR (Cloud Hosted Router) by downloading the MikroTik CHR image, writing it to the disk, and rebooting the system.
+
+
+**Usage:**
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/imafaz/awesome-scripts/main/convert-linux-to-mikrotik/main.sh)
+```
+**Note:** This script will overwrite the disk content, so use it with caution!
+
+
+---
+
 ## Contributing 🤝
 Feel free to contribute to this repository by submitting pull requests or opening issues. Your contributions are always welcome!
 
