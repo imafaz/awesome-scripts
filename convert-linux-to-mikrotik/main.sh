@@ -30,7 +30,8 @@ ADDRESS=$(ip addr show $ETH | grep global | cut -d' ' -f 6 | head -n 1) || exit 
 echo "Assigned IP: $ADDRESS"
 GATEWAY=$(ip route list | grep default | cut -d' ' -f 3) || exit 1
 echo "Gateway address: $GATEWAY"
-sleep 5
+echo "In the next 10 seconds, all server information will be deleted and MikroTik will be installed. If the information displayed is not correct, stop the process with the CTRL+C command and report the problem on Telegram @mrafaz"
+sleep 10
 dd if=chr.img of=/dev/$STORAGE bs=4M oflag=sync || exit 1
 echo "Process completed. Initiating system reboot..."
 echo 1 > /proc/sys/kernel/sysrq || exit 1
