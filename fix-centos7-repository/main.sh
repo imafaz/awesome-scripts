@@ -1,7 +1,8 @@
 #!/bin/sh
+RANDOM_NUMBER=$(($RANDOM % 900 + 100))
 
 echo "Backing up current yum.repos.d files..."
-mv /etc/yum.repos.d /etc/yum.repos.d.backup
+mv /etc/yum.repos.d /etc/yum.repos.d.backup$RANDOM_NUMBER
 
 echo "Creating new yum.repos.d directory..."
 mkdir /etc/yum.repos.d
