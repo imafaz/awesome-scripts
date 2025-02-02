@@ -8,7 +8,8 @@ echo "Creating new yum.repos.d directory..."
 mkdir /etc/yum.repos.d
 
 echo "Downloading and placing CentOS-Base.repo..."
-curl https://el7.repo.almalinux.org/centos/CentOS-Base.repo -o /etc/yum.repos.d/CentOS-Base.repo
+curl -4 https://el7.repo.almalinux.org/centos/CentOS-Base.repo -o /etc/yum.repos.d/CentOS-Base.repo
+
 
 yum clean all --verbose
 
